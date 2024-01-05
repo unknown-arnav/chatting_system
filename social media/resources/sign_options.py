@@ -13,9 +13,9 @@ def signup():
             print('Please make an account with another username')
         elif len(usna)==0:
             print('Chutiya hai kya be')
-            print('UserName kabhi empty ho sakta hai kya be')
+            print('UserName cant be empty')
         elif len(usna)<8:
-           print('kam se kam 8 charqcter ka username rakh le bhai')
+           print('USERNAME should be atleast 8 characters long')
         else:
             break
     while True:
